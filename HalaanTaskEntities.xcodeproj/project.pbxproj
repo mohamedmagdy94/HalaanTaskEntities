@@ -11,6 +11,15 @@
 		D9B4B41929016C9A00CEE98B /* HalaanTaskEntities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B4B40E29016C9A00CEE98B /* HalaanTaskEntities.framework */; };
 		D9B4B41E29016C9A00CEE98B /* HalaanTaskEntitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B4B41D29016C9A00CEE98B /* HalaanTaskEntitiesTests.swift */; };
 		D9B4B41F29016C9A00CEE98B /* HalaanTaskEntities.h in Headers */ = {isa = PBXBuildFile; fileRef = D9B4B41129016C9A00CEE98B /* HalaanTaskEntities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9B4B43329016CA700CEE98B /* TweetCounterConfiguratorContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B4B42929016CA600CEE98B /* TweetCounterConfiguratorContract.swift */; };
+		D9B4B43429016CA700CEE98B /* TweetCounterInteractorContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B4B42A29016CA600CEE98B /* TweetCounterInteractorContract.swift */; };
+		D9B4B43529016CA700CEE98B /* TweetCounterRouterContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B4B42B29016CA600CEE98B /* TweetCounterRouterContract.swift */; };
+		D9B4B43629016CA700CEE98B /* TweetCounterReprositoryContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B4B42C29016CA600CEE98B /* TweetCounterReprositoryContract.swift */; };
+		D9B4B43729016CA700CEE98B /* TweetCounterViewContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B4B42D29016CA600CEE98B /* TweetCounterViewContract.swift */; };
+		D9B4B43829016CA700CEE98B /* TweetCounterPresenterContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B4B42E29016CA600CEE98B /* TweetCounterPresenterContract.swift */; };
+		D9B4B43929016CA700CEE98B /* TweetCounterError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B4B43029016CA700CEE98B /* TweetCounterError.swift */; };
+		D9B4B43A29016CA700CEE98B /* TweetCounterViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B4B43129016CA700CEE98B /* TweetCounterViewData.swift */; };
+		D9B4B43B29016CA700CEE98B /* TweetCountingResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B4B43229016CA700CEE98B /* TweetCountingResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +38,15 @@
 		D9B4B41229016C9A00CEE98B /* HalaanTaskEntities.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = HalaanTaskEntities.docc; sourceTree = "<group>"; };
 		D9B4B41829016C9A00CEE98B /* HalaanTaskEntitiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HalaanTaskEntitiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9B4B41D29016C9A00CEE98B /* HalaanTaskEntitiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalaanTaskEntitiesTests.swift; sourceTree = "<group>"; };
+		D9B4B42929016CA600CEE98B /* TweetCounterConfiguratorContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCounterConfiguratorContract.swift; sourceTree = "<group>"; };
+		D9B4B42A29016CA600CEE98B /* TweetCounterInteractorContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCounterInteractorContract.swift; sourceTree = "<group>"; };
+		D9B4B42B29016CA600CEE98B /* TweetCounterRouterContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCounterRouterContract.swift; sourceTree = "<group>"; };
+		D9B4B42C29016CA600CEE98B /* TweetCounterReprositoryContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCounterReprositoryContract.swift; sourceTree = "<group>"; };
+		D9B4B42D29016CA600CEE98B /* TweetCounterViewContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCounterViewContract.swift; sourceTree = "<group>"; };
+		D9B4B42E29016CA600CEE98B /* TweetCounterPresenterContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCounterPresenterContract.swift; sourceTree = "<group>"; };
+		D9B4B43029016CA700CEE98B /* TweetCounterError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCounterError.swift; sourceTree = "<group>"; };
+		D9B4B43129016CA700CEE98B /* TweetCounterViewData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCounterViewData.swift; sourceTree = "<group>"; };
+		D9B4B43229016CA700CEE98B /* TweetCountingResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCountingResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +89,8 @@
 		D9B4B41029016C9A00CEE98B /* HalaanTaskEntities */ = {
 			isa = PBXGroup;
 			children = (
+				D9B4B42829016CA600CEE98B /* Contract */,
+				D9B4B42F29016CA700CEE98B /* Entity */,
 				D9B4B41129016C9A00CEE98B /* HalaanTaskEntities.h */,
 				D9B4B41229016C9A00CEE98B /* HalaanTaskEntities.docc */,
 			);
@@ -83,6 +103,29 @@
 				D9B4B41D29016C9A00CEE98B /* HalaanTaskEntitiesTests.swift */,
 			);
 			path = HalaanTaskEntitiesTests;
+			sourceTree = "<group>";
+		};
+		D9B4B42829016CA600CEE98B /* Contract */ = {
+			isa = PBXGroup;
+			children = (
+				D9B4B42929016CA600CEE98B /* TweetCounterConfiguratorContract.swift */,
+				D9B4B42A29016CA600CEE98B /* TweetCounterInteractorContract.swift */,
+				D9B4B42B29016CA600CEE98B /* TweetCounterRouterContract.swift */,
+				D9B4B42C29016CA600CEE98B /* TweetCounterReprositoryContract.swift */,
+				D9B4B42D29016CA600CEE98B /* TweetCounterViewContract.swift */,
+				D9B4B42E29016CA600CEE98B /* TweetCounterPresenterContract.swift */,
+			);
+			path = Contract;
+			sourceTree = "<group>";
+		};
+		D9B4B42F29016CA700CEE98B /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				D9B4B43029016CA700CEE98B /* TweetCounterError.swift */,
+				D9B4B43129016CA700CEE98B /* TweetCounterViewData.swift */,
+				D9B4B43229016CA700CEE98B /* TweetCountingResult.swift */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,7 +237,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9B4B43829016CA700CEE98B /* TweetCounterPresenterContract.swift in Sources */,
+				D9B4B43A29016CA700CEE98B /* TweetCounterViewData.swift in Sources */,
 				D9B4B41329016C9A00CEE98B /* HalaanTaskEntities.docc in Sources */,
+				D9B4B43429016CA700CEE98B /* TweetCounterInteractorContract.swift in Sources */,
+				D9B4B43529016CA700CEE98B /* TweetCounterRouterContract.swift in Sources */,
+				D9B4B43329016CA700CEE98B /* TweetCounterConfiguratorContract.swift in Sources */,
+				D9B4B43929016CA700CEE98B /* TweetCounterError.swift in Sources */,
+				D9B4B43629016CA700CEE98B /* TweetCounterReprositoryContract.swift in Sources */,
+				D9B4B43729016CA700CEE98B /* TweetCounterViewContract.swift in Sources */,
+				D9B4B43B29016CA700CEE98B /* TweetCountingResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +446,7 @@
 		D9B4B42629016C9A00CEE98B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -409,6 +462,7 @@
 		D9B4B42729016C9A00CEE98B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
